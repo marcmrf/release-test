@@ -1,0 +1,17 @@
+
+{
+	"buildCommand": "npm run build",
+	"src": {
+	  "commitMessage": "Release v%s",
+	  "tagName": "v%s",
+	  "tagAnnotation": "Release v%s"
+	},
+	"npm": {
+	  "publish": false
+	},
+	"github": {
+	  "release": true,
+	  "releaseName": "Release v%s",
+	  "tokenRef": "GITHUB_TOKEN"
+	}
+  }
