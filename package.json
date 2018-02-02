@@ -1,12 +1,12 @@
 {
   "name": "release-test",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"release": "release-it",
-	"build": "echo 'aa' >> test.txt"
+    "release": "release-it",
+    "build": "echo 'aa' >> test.txt"
   },
   "repository": {
     "type": "git",
